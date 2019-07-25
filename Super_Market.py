@@ -114,7 +114,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 96,
+   "execution_count": 10,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -123,7 +123,27 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(3,)]"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cursor.fetchall()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -132,10 +152,52 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(2,)]"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cursor.fetchall()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cursor.close()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "conn.commit()"
+   ]
   },
   {
    "cell_type": "code",
