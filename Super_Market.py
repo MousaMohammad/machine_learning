@@ -48,16 +48,6 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "cursor.execute('use  Super_Market;')\n",
-    "cursor.execute('drop table items;')"
-   ]
-  },
-  {
-   "cell_type": "code",
    "execution_count": 7,
    "metadata": {},
    "outputs": [],
